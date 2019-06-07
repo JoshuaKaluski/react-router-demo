@@ -12,7 +12,7 @@ class Navbar extends Component {
         ));
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <Link exact to='/dogs' className="navbar-brand">Dog app</Link>
+                <Link to='/dogs' className="navbar-brand">Dog app</Link>
                 <button
                     className="navbar-toggler"
                     type="button"
